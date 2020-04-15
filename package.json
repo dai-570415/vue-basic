@@ -16,7 +16,7 @@
     "babel-polyfill": "^6.26.0",
     "bootstrap-vue": "^2.2.0",
     "firebase": "^7.6.1",
-    "jquery": "^2.2.4",
+    "jquery": "^3.4.0",
     "slick-carousel": "^1.8.1",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
