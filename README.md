@@ -1,6 +1,7 @@
 # vue-basic
 
-> A Vue.js project
+> このドキュメントはVueとVuex、firebaseのパッケージしたものです。
+> This document is a package of Vue, Vuex and firebase.
 
 ## Build Setup
 
@@ -27,4 +28,27 @@ npm run e2e
 npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## firebase Setup
+
+```js:src/main.js
+// ........
+
+// Firebaseで新しいプロジェクトを作成する場合は、以下を差し替えます。
+// If you create a new project with Firebase, replace the following.
+Vue.config.productionTip = false
+let firebaseConfig = {
+  apiKey: "Your_Code",
+  authDomain: "Your_Code",
+  databaseURL: "Your_Code",
+  projectId: "Your_Code",
+  storageBucket: "Your_Code",
+  messagingSenderId: "Your_Code",
+  appId: "Your_Code",
+  measurementId: "Your_Code"
+};
+firebase.initializeApp(firebaseConfig);
+// ここまで差し替え
+// Replace to here.
+
+// ........
+```
